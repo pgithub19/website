@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--- make it mobile device responsive --->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!--- set char types --->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Happy Birthday!</title>
+
+	<!--- link the style file to the html file --->	
+	<link rel="stylesheet" href="style.css">
+	
+	<!--- import some nice fonts! --->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+	<!--- import folder link to nice looking icons --->
+	<link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+	<!---  --->
+	<!---  --->
+
+</head>
+
+<body>
+	<!--- start a new section that is supposed to be the main page --->
+
+	<section class="rezensionen-header">
+		<nav>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="allesGute.html">Alles Gute</a></li>
+					<li><a href="rezensionen.html">Wünsche</a></li>
+					<li><a href="losgehts.html">Los gehts!</a></li>
+				</ul>
+				
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()" ></i>
+		</nav>
+		<div class="text-box-rezensionen">
+			<h1>Was wir Dir wünschen</h1>
+			<p>Wünsche, wünsche, wünsche</p>
+		</div>
+		<div class="row">
+			<div class="testimonials-col">
+				<img src="images/user1.jpg">
+				<div>
+					<p>Hello, too. adflkjad asldkjf hfalkjhf lkjdhflkjaf lkjadhsf lkjahfd! kjadsfklj lakdsjflkads lkjadhf aklsjdfhlk asdkljfhlkadsjf hkjsdfkjh ljhasdfl jkahldf ljkadf jkhladjf dfaldjhadf.</p>
+					<h3>Hannah</h3>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+			</div>
+			<div class="testimonials-col">
+				<img src="images/user2.jpg">
+				<div>
+					<p>Hello, too. adflkjad asldkjf hfalkjhf lkjdhflkjaf lkjadhsf lkjahfd! kjadsfklj lakdsjflkads lkjadhf aklsjdfhlk asdkljfhlkadsjf hkjsdfkjh ljhasdfl jkahldf ljkadf jkhladjf dfaldjhadf.</p>
+					<h3>Thomas</h3>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+				</div>
+			</div>	
+		</div>
+		<div class="text-box-hero-btn">
+			<a href="" class="hero-btn">Und weiter gehts!</a>
+		</div>
+	</section>
+
+<!-------Footer----------------->
+
+
+	<section class="footer">
+		<h4>Zu Patricks 29. Geburtstag</h4>
+		<p>2021</p>
+
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		
+	</section>
+
+<!-------JavaScript for Toggle Menu----------------->
+
+<script type="text/javascript">
+	
+	var navLinks = document.getElementById("navLinks")
+
+	function showMenu() {
+		navLinks.style.right = "0"
+	}
+
+	function hideMenu() {
+		navLinks.style.right = "-200px"
+	}
+
+
+</script>
+
+
+</body>
+
+</html>
